@@ -34,16 +34,10 @@ function decrement(n){
     return(n)
 
 }
-function makeInt(n,a){
-    return(n)
-}
-   
-    makeInt('0x2328', 10);{
-
+   function makeInt(string){
+return parseInt(string, 10)
     }
-    makeInt('sldkjflksjf',10);{
-
-    }
+    
     function preserveDecimal(n){
-return (n)
+return parseFloat(n)
     }
